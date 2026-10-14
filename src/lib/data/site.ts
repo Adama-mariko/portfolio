@@ -4,7 +4,7 @@
  * Tant qu'elle est vide, les balises qui exigent une adresse absolue (canonical, og:url) ne sont pas générées.
  */
 export const site = {
-	url: '',
+	url: 'https://adama-mariko.vercel.app',
 	locale: 'fr_FR',
 	description:
 		'Adama Mariko, développeur full stack à Abidjan : SvelteKit, Laravel, Django, Flutter. API de paiement, back-offices et applications web et mobiles en production. Étudiant en Licence Génie Logiciel et Réseaux (UVCI).',
