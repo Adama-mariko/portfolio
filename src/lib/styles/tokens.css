@@ -1,0 +1,49 @@
+/* Couleurs, typographie et dimensions du thème. */
+
+:root {
+	/* Palette verte (de la plus claire à la plus foncée) */
+	--green-50: #f0fdf4;
+	--green-100: #dcfce7;
+	--green-200: #b9f8cf;
+	--green-300: #7bf1a8;
+	--green-400: #05df72;
+	--green-500: #00c950;
+	--green-600: #00a63e;
+	--green-700: #008236;
+	--green-800: #016630;
+	--green-900: #0d542b;
+	--green-950: #032e15;
+
+	/* Surfaces */
+	--bg: #05070a;
+	--bg-card: #0a0d0c;
+	--bg-elevated: #111714;
+
+	/* Texte */
+	--fg: #e6edf3;
+	--fg-muted: #94a39c;
+	--fg-faint: #5a6b63;
+
+	/* Accent */
+	--accent: var(--green-400);
+	--accent-bright: var(--green-300);
+	--accent-glow: rgba(5, 223, 114, 0.12);
+	--accent-border: rgba(5, 223, 114, 0.3);
+
+	/* Bordures */
+	--border-subtle: #131a16;
+	--border-medium: #222c27;
+
+	/* Typographie */
+	--font-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+	--font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+	/* Mise en page */
+	--container: 80rem;
+	--container-narrow: 64rem;
+	--nav-height: 64px;
+	--radius-sm: 4px;
+	--radius: 8px;
+	--radius-lg: 12px;
+	--ease-out: cubic-bezier(0.19, 1, 0.22, 1);
+}

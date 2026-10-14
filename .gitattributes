@@ -1,0 +1,9 @@
+# Fins de ligne Unix pour le code, quel que soit le système
+* text=auto eol=lf
+
+# Fichiers binaires : jamais convertis
+*.pdf binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary
